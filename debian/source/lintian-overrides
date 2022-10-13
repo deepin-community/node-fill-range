@@ -1,0 +1,7 @@
+# False positive
+source: source-is-missing test/ranges.js line length is 277 characters (>256)
+source: very-long-line-length-in-source-file test/padding.js line length is 619 characters (>512)
+source: source-contains-prebuilt-javascript-object test/padding.js line length is 615 characters (>512)
+source: source-is-missing test/padding.js line length is 615 characters (>512)
+source: source-contains-prebuilt-javascript-object test/ranges.js line length is 277 characters (>256)
+

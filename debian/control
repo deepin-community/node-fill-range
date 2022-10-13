@@ -1,0 +1,26 @@
+Source: node-fill-range
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Priority: optional
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends: debhelper-compat (= 13),
+               mocha,
+               node-to-regex-range (>= 5.0.1),
+               nodejs,
+               pkg-js-tools (>= 0.9.8~)
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-fill-range
+Vcs-Git: https://salsa.debian.org/js-team/node-fill-range.git
+Homepage: https://github.com/jonschlinkert/fill-range
+
+Package: node-fill-range
+Architecture: all
+Depends: node-to-regex-range (>= 5.0.1),
+         nodejs,
+         ${misc:Depends}
+Description: node module to fill in a range of numbers or letters
+ fill-range can optionally pass an increment or `step` to use, or create a
+ regex-compatible range with `options.toRegex`
+ .
+ Node.js is an event-based server-side JavaScript engine.
