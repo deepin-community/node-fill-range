@@ -1,7 +1,10 @@
 # False positive
-source: source-is-missing test/ranges.js line length is 277 characters (>256)
-source: very-long-line-length-in-source-file test/padding.js line length is 619 characters (>512)
-source: source-contains-prebuilt-javascript-object test/padding.js line length is 615 characters (>512)
-source: source-is-missing test/padding.js line length is 615 characters (>512)
-source: source-contains-prebuilt-javascript-object test/ranges.js line length is 277 characters (>256)
+source-is-missing test/padding.js
+source-is-missing test/ranges.js
+source-contains-prebuilt-javascript-object test/padding.js
+source-contains-prebuilt-javascript-object test/ranges.js
+very-long-line-length-in-source-file README.md line 1 is 675 characters long (>512)
+very-long-line-length-in-source-file test/padding.js line 16 is 619 characters long (>512)
 
+# Generic types-* path
+add-component-copyright types-*

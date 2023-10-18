@@ -1,3 +1,16 @@
+node-fill-range (7.0.1+~7.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+  * Fix GitHub tags regex
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Sun, 02 Jan 2022 09:45:29 +0100
+
 node-fill-range (7.0.1-4) unstable; urgency=medium
 
   [ Debian Janitor ]
