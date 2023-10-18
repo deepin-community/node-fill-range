@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: fill-range
 Upstream-Contact: https://github.com/jonschlinkert/fill-range/issues
 Source: https://github.com/jonschlinkert/fill-range
+ https://registry.npmjs.org/@types/fill-range
 
 Files: *
 Copyright: 2014-present, Jon Schlinkert (https://github.com/jonschlinkert)
@@ -9,7 +10,11 @@ License: Expat
 
 Files: debian/*
 Copyright: 2016, Pirate Praveen <praveen@debian.org>
- 2019, Xavier Guimard <yadd@debian.org>
+ 2019, Yadd <yadd@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
